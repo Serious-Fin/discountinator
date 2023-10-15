@@ -1,37 +1,19 @@
-![fireship](https://github.com/Serious-Fin/discountinator/assets/70478387/c6ba531e-a0b6-4d75-882b-141a6884252c)
-# React + TypeScript + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-
-TODO:
-file:///home/augustas/Downloads/sql.png
-
-- email authentication
-- OAuth2 with GitHub
-- improve UI: instructions when no items, better navbar
-
-* notify user when price changes (email provider)
+# README
+## Description
+"Discountinator" is a website designed to help users track prices of various items by providing only the link.
+## Usage
+By opening the website the user is greeted with a login page:
+![login](https://github.com/Serious-Fin/discountinator/assets/70478387/2e87b1cd-28dd-4cb2-99ef-391fcefb3fc4)
+First time users have to *register* for an account. After successful registration an email confirmation is required.
+After all is set up the user can finally add their items to the website. The main page looks like this:
+![main](https://github.com/Serious-Fin/discountinator/assets/70478387/69e2a373-fff6-4be5-8c8d-5fb1bfc16f74)
+## Features
+* User verification
+* Web scraping for price
+* Refresh prices automatically (every 8 hours)
+* If lower price is detected, email notification is sent to user
+## What I learned
+* React
+* NodeJS
+* PocketBase
+* Cheerio (tool for web scraping)
