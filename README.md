@@ -27,6 +27,7 @@ If you are developing a production application, we recommend updating the config
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
 
 TODO:
+file:///home/augustas/Downloads/sql.png
 
 - email authentication
 - OAuth2 with GitHub
