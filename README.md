@@ -1,3 +1,4 @@
+![fireship](https://github.com/Serious-Fin/discountinator/assets/70478387/c6ba531e-a0b6-4d75-882b-141a6884252c)
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
