@@ -21,3 +21,5 @@ After all is set up the user can finally add their items to the website. The mai
 * NodeJS
 * PocketBase
 * Cheerio (tool for web scraping)
+* Docker
+* Hosting on Fly.io
