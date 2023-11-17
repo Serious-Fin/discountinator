@@ -1,6 +1,8 @@
 # README
 ## Description
 "Discountinator" is a website designed to help users track prices of various items by providing only the link.
+## Live demo
+You can check out a live demo [here](https://discountinator.fly.dev/) or by follwoing this link [https://discountinator.fly.dev/](https://discountinator.fly.dev/)
 ## Usage
 By opening the website the user is greeted with a login page:
 
